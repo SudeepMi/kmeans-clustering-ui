@@ -1,8 +1,4 @@
-# React + Vite
+# K-Means++ Clustering simulation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![image](https://github.com/SudeepMi/kmeans-clustering-ui/assets/36982217/61167219-7e8a-4d7b-babc-b4c832a2e396)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
