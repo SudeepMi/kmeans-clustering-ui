@@ -1,13 +1,12 @@
 .form{
   display: flex;
   flex-direction: column;
-  gap: 15 px;
-  display: flex;
-  flex-direction: column;
   gap: initial;
   align-items: start;
   justify-content: center;
   gap: 11px;
+  width: 99%;
+  margin: auto;
 }
 
 .form input{
@@ -18,12 +17,12 @@
 .input-row{
   display: flex;
   gap: 10px;
+  flex-wrap: wrap;
 }
 
 .wrapper{
   display: flex;
     gap: 10px;
-    justify-content: space-around;
     align-items: center;
 }
 
