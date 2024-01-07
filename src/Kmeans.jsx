@@ -38,7 +38,7 @@ const KMeansClustering = () => {
             return;
         }
 
-        var res = skmeans(data, parsedNumClusters, data[initialCenterIndex]);
+        var res = skmeans(data, parsedNumClusters, "kmpp");
 
         const _data = JSON.parse(localStorage.getItem("data"));
         setData(_data);
@@ -166,7 +166,9 @@ const KMeansClustering = () => {
                         }
                     </div>
                 }
-            </div>
+                 <h4 className="flex">Made with <span className="b" style={{fontSize:30}}> &#10084; </span>{" "} By CodeWithSudeep</h4>
+            <img src="./logo.png" width={"90px"} />
+        </div>
         </div>
 
     );
